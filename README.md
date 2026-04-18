@@ -5,6 +5,7 @@ Ranked 2nd in Kriti’26 Quant Competition (evaluated on unseen data)
 ---
 
 Systematic long-only trading strategy with realistic execution modeling,regime filtering and evaluated based on out-of-sample validation.
+
 ---
 
 ## Overview
