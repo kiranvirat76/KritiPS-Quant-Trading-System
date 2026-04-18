@@ -1,6 +1,6 @@
 # Quant Trading System
 
-Systematic long-only trading strategy with realistic execution modeling,regime filtering and out-of-sample validation.
+Systematic long-only trading strategy with realistic execution modeling,regime filtering and evaluated based on out-of-sample validation.
 
 ---
 
@@ -9,7 +9,8 @@ Systematic long-only trading strategy with realistic execution modeling,regime f
 This project implements a quantitative trading system focused on long-only equity strategies.
 The objective is to capture medium- to long-term momentum while controlling downside risk using regime filters and volatility-aware position sizing.
 The system is designed with real-world trading constraints, including execution delay (T+1), transaction costs, and market regime changes.
-Tested on Indian equity markets (2010–2025) with strict separation between training and out-of-sample periods.
+Tested on Indian equity markets (2010–2025) and the strategy performance was further
+evaluated on unseen data (2021-2025) in an external competition setting.
 
 ---
 
@@ -69,20 +70,6 @@ The system combines multiple components:
 | Max Drawdown           | -19.41% |
 | Annualized Volatility  | 11.41%  |
 | Win Rate               | 55.66%  |
-
----
-
-## Out-of-Sample Results
-
-| Metric                 |Out-of-Sample|
-|------------------------|-------------|
-| CAGR                   |             |
-| Sharpe Ratio           |             |
-| Max Drawdown           |             |
-| Annualized Volatility  |             |
-| Win Rate               |             |
-
-Performance remains stable out-of-sample, indicating limited overfitting.
 
 ---
 
