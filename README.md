@@ -70,6 +70,7 @@ The system combines multiple components:
 | Max Drawdown           | -19.41% |
 | Annualized Volatility  | 11.41%  |
 | Win Rate               | 55.66%  |
+|Kriti Rank              | 2nd     |
 
 ---
 
